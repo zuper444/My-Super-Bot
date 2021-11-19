@@ -26,9 +26,11 @@ class Conversation:
             self.send_reply(line, "Waiting 60 seconds...")
         elif cmd == "name":
             name = game.me.name
-            self.send_reply(line, "{} developed by ChessGreatPlayer. Using codes of C++ , Java , Python , C and Dockerfile running {} (lichess-bot v{})".format(name, self.engine.name(), self.version))
+            self.send_reply(line, "{} developed by @Drdisrespect1. Using codes  , C and Dockerfile running {} (lichess-bot v{})".format(name, self.engine.name(), self.version))
         elif cmd == "id":
-            self.send_reply(line, "ChessGreatPlayer")
+            self.send_reply(line, "@Drdisrespect1")
+         elif cmd == "hi":
+            self.send_reply(line, "Hi,My friend")
         elif cmd == "howto":
             self.send_reply(line, "How to run your own bot: Check out 'Lichess Bot API'")
         elif cmd == "eval":
