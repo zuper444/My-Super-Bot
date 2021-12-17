@@ -1,4 +1,4 @@
-token: "lip_JFG8SxahQd5eQALZj2oV"    # Lichess OAuth2 Token.
+token: "lip_60dcKAHZCyemW8CxmHbB"    # Lichess OAuth2 Token.
 url: "https://lichess.org/"  # Lichess base URL.
 
 engine:                      # Engine settings.
